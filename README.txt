@@ -19,7 +19,7 @@ Other other:
 
 Manual:
 1 Open README.txt (this file, list of the all design patterns)
-2 Open CONSOLE.txt (console output, logs for all the demos)
+2 Open CONSOLE.txt (console output, the logs for all the demos)
 3 Open any dp_X_Y_name.java example (all classes for one demo in one file)
 
 
