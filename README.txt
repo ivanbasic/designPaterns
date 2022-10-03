@@ -2,8 +2,6 @@ by Ivan Basic
 15.08.2017
 03.10.2022
 
-JAVA DESIGN PATTERNS
-
 Re-writing original design patterns by Gang of Four using Java 11
 I have always tried to create all the examples on my own.
 If that is not the case, I used "other references" below for help.
@@ -18,6 +16,14 @@ Other References:
     https://www.javatpoint.com/design-patterns-in-java
 Other other:
     https://www.baeldung.com/java-find-all-classes-in-package
+
+Manual:
+1 Open README.txt (this file, list of the all design patterns)
+2 Open CONSOLE.txt (console output, logs for all the demos)
+3 Open any dp_X_Y_name.java example (all classes for one demo in one file)
+
+
+JAVA DESIGN PATTERNS:
 
 1    CREATIONAL
 1.01 singleton        - Ensure a class only has one instance

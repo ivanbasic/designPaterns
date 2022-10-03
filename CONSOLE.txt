@@ -1,0 +1,24 @@
+Design Patterns, DEMOs, dynamic call (reflection)
+
+===============================================================
+Demo#1 1.02.Factory
+===============================================================
+Creating ConcreteProduct1
+Creating ConcreteProduct2
+Creating nothing
+Creating ConcreteProduct1
+Creating ConcreteProduct2
+
+===============================================================
+Demo#2 1.03.AbstractFactory
+===============================================================
+Creating Factory 1
+a Windows button
+a Windows scroll
+a Windows panel
+Creating Factory 2
+a Linux button
+a Linux scroll
+There is no a Linux panel
+
+Process finished with exit code 0

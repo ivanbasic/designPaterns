@@ -1,7 +1,7 @@
 package ivanbasic;
 
 
-public class dp_1_01_Factory implements dp_Demo {
+public class dp_1_02_Factory implements dp_Demo {
 
     public void main(String[] args) {
 
