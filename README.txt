@@ -1,3 +1,4 @@
+by Ivan Basic
 15.08.2017
 03.10.2022
 
@@ -8,10 +9,10 @@ I have always tried to create all the examples on my own.
 If that is not the case, I used "other references" below for help.
 
 Reference:
-   Design Patterns, Elements of Reusable Object-Oriented Software by Gang of Four
-   https://en.wikipedia.org/wiki/Design_Patterns
+    Design Patterns, Elements of Reusable Object-Oriented Software by Gang of Four
+    https://en.wikipedia.org/wiki/Design_Patterns
 Other References:
-	https://en.wikipedia.org/wiki/Software_design_pattern
+    https://en.wikipedia.org/wiki/Software_design_pattern
     https://www.tutorialspoint.com/design_pattern/
     https://sourcemaking.com/design_patterns
     https://www.javatpoint.com/design-patterns-in-java
