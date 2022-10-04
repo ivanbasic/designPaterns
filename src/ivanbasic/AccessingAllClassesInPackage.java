@@ -3,6 +3,7 @@ package ivanbasic;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -27,5 +28,13 @@ class AccessingAllClassesInPackage {
         }
         return null;
     }
+
+    public List<String> getClassNamesSorted(String packageName) {
+        Set<Class> set = findAllClassesUsingClassLoader(packageName);
+
+        List<String> sorted = set.stream().map(aClass -> aClass.getName()).sorted().collect(Collectors.toList());
+        return sorted;
+    }
+
 
 }
