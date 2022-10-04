@@ -1,8 +1,6 @@
 package ivanbasic;
 
-
 public class dp_1_03_AbstractFactory implements dp_Demo {
-
     public void main(String[] args) {
 
         InterfaceAbstractFactory interfaceAbstractFactory;
@@ -21,21 +19,14 @@ public class dp_1_03_AbstractFactory implements dp_Demo {
 }
 
 // List of product's:  A,B,C.
-interface AbstractProductA {
-}
-
-interface AbstractProductB {
-}
-
-interface AbstractProductC {
-}
+interface AbstractProductA {}
+interface AbstractProductB {}
+interface AbstractProductC {}
 
 // AbstractFactory
 interface InterfaceAbstractFactory {
     AbstractProductA createProductA();
-
     AbstractProductB createProductB();
-
     AbstractProductC createProductC();
 }
 
@@ -44,7 +35,7 @@ interface InterfaceAbstractFactory {
 class ConcreteFactory1 implements InterfaceAbstractFactory {
 
     ConcreteFactory1() {
-        System.out.println("Creating Factory 1" );
+        System.out.println("Creating Factory 1");
     }
 
     public AbstractProductA createProductA() {
@@ -60,6 +51,7 @@ class ConcreteFactory1 implements InterfaceAbstractFactory {
     }
 }
 
+// product implementations for Factory 1
 class ProductA1 implements AbstractProductA {
     ProductA1() {
         System.out.println("a Windows button");
@@ -82,7 +74,7 @@ class ProductC1 implements AbstractProductC {
 //Factory 2
 class ConcreteFactory2 implements InterfaceAbstractFactory {
     ConcreteFactory2() {
-        System.out.println("Creating Factory 2" );
+        System.out.println("Creating Factory 2");
     }
 
     public AbstractProductA createProductA() {
@@ -99,6 +91,7 @@ class ConcreteFactory2 implements InterfaceAbstractFactory {
     }
 }
 
+// product implementations for Factory 2
 class ProductA2 implements AbstractProductA {
     ProductA2() {
         System.out.println("a Linux button");
