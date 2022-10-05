@@ -1,7 +1,7 @@
 package ivanbasic;
 
-public class dp_1_03_AbstractFactory implements dp_Demo {
-    public void main(String[] args) {
+public class dp_1_03_AbstractFactory implements Demonstration {
+    public void demonstration() {
 
         InterfaceAbstractFactory interfaceAbstractFactory;
 

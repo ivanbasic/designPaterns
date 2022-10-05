@@ -1,7 +1,7 @@
 package ivanbasic;
 
-public class dp_2_04_Decorator implements dp_Demo {
-    public void main(String[] args) {
+public class dp_2_04_Decorator implements Demonstration {
+    public void demonstration() {
 
         Decorator d1 = new DecoratedComponent1(new C1());
         d1.operation();

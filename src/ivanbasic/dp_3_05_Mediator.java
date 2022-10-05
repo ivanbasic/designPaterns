@@ -2,8 +2,8 @@ package ivanbasic;
 
 import java.util.ArrayList;
 
-public class dp_3_05_Mediator implements dp_Demo {
-    public void main(String[] args) {
+public class dp_3_05_Mediator implements Demonstration {
+    public void demonstration() {
         Mediator mediator = new ConcreteMediator();
 
         Colleague alice = new ConcreteColleague(mediator, "Alice");

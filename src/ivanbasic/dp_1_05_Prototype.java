@@ -1,7 +1,7 @@
 package ivanbasic;
 
-public class dp_1_05_Prototype implements dp_Demo {
-    public void main(String[] args) {
+public class dp_1_05_Prototype implements Demonstration {
+    public void demonstration() {
         System.out.println("Prototype demo ");
 
         Prototype p1 = new Person("Smith");

@@ -15,8 +15,8 @@ import java.util.HashMap;
 import java.util.List;
 
 // Client
-public class dp_2_06_Flyweight implements dp_Demo {
-	public void main(String[] args) {
+public class dp_2_06_Flyweight implements Demonstration {
+	public void demonstration() {
 		
 		FontFactory factory = new FontFactory();
 		List<Glyph> document = new ArrayList<Glyph>();

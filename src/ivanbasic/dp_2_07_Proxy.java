@@ -1,7 +1,7 @@
 package ivanbasic;
 
-public class dp_2_07_Proxy implements dp_Demo  {
-    public    void main(  String[] arguments) {
+public class dp_2_07_Proxy implements Demonstration {
+    public    void demonstration() {
         final Image image1 = new ProxyImage("HiRes_10MB_Photo1");
         final Image image2 = new ProxyImage("HiRes_10MB_Photo2");
 

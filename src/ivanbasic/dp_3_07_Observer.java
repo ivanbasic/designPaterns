@@ -99,8 +99,8 @@ class HexaObserver extends Observer{
 
 //ObserverPatternDemo.java
 
-public class dp_3_07_Observer implements dp_Demo  {
-   public   void main(String[] args) {
+public class dp_3_07_Observer implements Demonstration {
+   public   void demonstration() {
       Subject subject = new Subject();
 
       new HexaObserver(subject);

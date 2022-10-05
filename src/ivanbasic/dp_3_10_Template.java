@@ -1,7 +1,7 @@
 package ivanbasic;
 
-public class dp_3_10_Template implements dp_Demo {
-	public void main(String[] args) {
+public class dp_3_10_Template implements Demonstration {
+	public void demonstration() {
 
 		Template t1= new NiceTemplate();
 		t1.templateMethod();

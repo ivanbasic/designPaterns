@@ -1,7 +1,7 @@
 package ivanbasic;
 
-public class dp_3_09_Strategy implements dp_Demo {
-	public void main(String[] args) {
+public class dp_3_09_Strategy implements Demonstration {
+	public void demonstration() {
 		
 		aContext con = new aContext( new Walk() );
 		con.executeStrategy();

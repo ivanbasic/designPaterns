@@ -2,9 +2,9 @@ package ivanbasic;
 
 // In the following usage example, the successors are set as follows:
 // Manager -> Director -> Vice President -> President
-public class dp_3_01_ChainOfResponsibility implements dp_Demo {
+public class dp_3_01_ChainOfResponsibility implements Demonstration {
 
-    public void main(String[] args) {
+    public void demonstration() {
 
         PurchasePower manager = new ManagerPPower();
         PurchasePower director = new DirectorPPower();

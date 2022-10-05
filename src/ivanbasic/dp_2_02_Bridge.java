@@ -5,8 +5,8 @@ import java.util.List;
 // BRIDGE
 // Decouple an abstraction from its implementation so that the two can vary independently
 
-public class dp_2_02_Bridge implements dp_Demo {
-    public void main(String[] args) {
+public class dp_2_02_Bridge implements Demonstration {
+    public void demonstration() {
         List<Abstraction> abstractions =
                 List.of(
                         new RefinedAbstractionI(new ConcreteImplementorA()),

@@ -1,7 +1,7 @@
 package ivanbasic;
 
-public class dp_2_01_Adapter implements dp_Demo {
-    public void main(String[] args) {
+public class dp_2_01_Adapter implements Demonstration {
+    public void demonstration() {
 
         // wrong !
 		// program to interfaces, not implementations

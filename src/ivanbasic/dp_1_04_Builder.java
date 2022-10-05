@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.Random;
 
 
-public class dp_1_04_Builder implements dp_Demo {
-    public void main(String[] args) {
+public class dp_1_04_Builder implements Demonstration {
+    public void demonstration() {
 
         // complex Object
         Generator generator = new Generator();

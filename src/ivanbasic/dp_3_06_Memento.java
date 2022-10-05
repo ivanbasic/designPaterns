@@ -5,8 +5,8 @@ import java.util.ArrayList;
 // https://sourcemaking.com/design_patterns/memento/java/1
 
 //Caretaker
-public class dp_3_06_Memento implements dp_Demo {
-    public   void main(String[] args) {
+public class dp_3_06_Memento implements Demonstration {
+    public   void demonstration() {
         List<Originator.Memento> savedStates = new ArrayList<Originator.Memento>();
 
         Originator originator = new Originator();

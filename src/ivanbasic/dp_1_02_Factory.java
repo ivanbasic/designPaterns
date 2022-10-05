@@ -1,7 +1,7 @@
 package ivanbasic;
 
-public class dp_1_02_Factory implements dp_Demo {
-    public void main(String[] args) {
+public class dp_1_02_Factory implements Demonstration {
+    public void demonstration() {
         ConcreteCreator1 cc = new ConcreteCreator1();
 
         Product p11 = cc.FactoryMethod(1);

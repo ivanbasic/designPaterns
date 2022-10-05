@@ -5,23 +5,21 @@ import java.util.List;
 public class aMain {
     final static int CHOOSE_DEMO_ORDINAL = 0; // Zero for all
 
-    public static void main(final String[] dummy) {
+    public static void main(final String[] args) {
         callAllDemosUsingReflection(CHOOSE_DEMO_ORDINAL);
     }
 
-
     public static void callAllDemosUsingReflection(final int demoOrdinal) {
-
-        System.out.println("Design Patterns, DEMOs, dynamic call using reflection");
+        System.out.println("JAVA DESIGN PATTERNS");
         final List<String> classes = new AccessingAllClassesInPackage().getClassNamesSorted("ivanbasic");
         int demoCounter = 1;
 
         for (final String className : classes) {
             try {
-                Object objDemo = Class.forName( className).getConstructor().newInstance();
-                dp_Demo dp_demo = (dp_Demo) objDemo;
+                Object objDemo = Class.forName(className).getConstructor().newInstance();
+                Demonstration demo = (Demonstration) objDemo;
                 if (demoOrdinal == 0 || demoOrdinal == demoCounter) {
-                    dp_demo.HeaderAndMain(demoCounter);
+                    demo.HeaderAndDemonstration(demoCounter);
                 }
                 demoCounter++;
             } catch (final Exception e) {
@@ -32,10 +30,10 @@ public class aMain {
 
 }
 
-interface dp_Demo {
-    void main(String[] args);
+interface Demonstration {
+    void demonstration();
 
-    default void HeaderAndMain(int demoCounter) {
+    default void HeaderAndDemonstration(int demoCounter) {
         String className = this.getClass().getName().replace("ivanbasic.dp_", "").replace("_", ".");
 
         System.out.println("");
@@ -43,7 +41,7 @@ interface dp_Demo {
         System.out.println("Demo#" + demoCounter + " " + className);
         System.out.println("===============================================================");
 
-        this.main(null);
+        this.demonstration();
     }
 
 }

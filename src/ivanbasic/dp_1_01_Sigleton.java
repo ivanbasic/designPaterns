@@ -23,8 +23,8 @@ class SingleObject {
 }
 
 //Step 2 Get the only object from the singleton class.
-public class dp_1_01_Sigleton implements dp_Demo  {
-   public   void main(String[] args) {
+public class dp_1_01_Sigleton implements Demonstration {
+   public   void demonstration() {
 
       //illegal construct
       //Compile Time Error: The constructor SingleObject() is not visible

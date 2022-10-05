@@ -2,8 +2,10 @@ by Ivan Basic
 15.08.2017
 03.10.2022
 
+JAVA DESIGN PATTERNS DEMONSTRATION
+
 Re-writing original design patterns by Gang of Four using Java 11
-I have always tried to create all the examples on my own.
+I have always tried to create the examples on my own.
 If that is not the case, I used "other references" below for help.
 
 Reference:

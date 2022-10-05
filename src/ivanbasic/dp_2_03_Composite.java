@@ -26,8 +26,8 @@ package ivanbasic;
 import java.util.ArrayList;
 import java.util.List;
 
-public class dp_2_03_Composite implements dp_Demo {
-    public void main(String[] args) {
+public class dp_2_03_Composite implements Demonstration {
+    public void demonstration() {
 
         Graphic rectangle1 = new Rectangle("1,1", "5");
         Graphic rectangle2 = new Rectangle("2,2", "10");

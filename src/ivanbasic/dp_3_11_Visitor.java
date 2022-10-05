@@ -36,8 +36,8 @@ class Rain implements Visitor {
     }
 }
 
-public class dp_3_11_Visitor implements dp_Demo {
-    public void main(String[] args) {
+public class dp_3_11_Visitor implements Demonstration {
+    public void demonstration() {
         Element aplle = new Aplle();
         Element banana = new Banana();
 

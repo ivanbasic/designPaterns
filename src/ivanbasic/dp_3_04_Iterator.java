@@ -4,8 +4,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class dp_3_04_Iterator implements dp_Demo {
-    public void main(String[] args) {
+public class dp_3_04_Iterator implements Demonstration {
+    public void demonstration() {
 
         List<String> fruits = List.of("Apple", "Banana", "Orange");
 

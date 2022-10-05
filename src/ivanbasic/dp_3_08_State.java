@@ -1,7 +1,7 @@
 package ivanbasic;
 
-public class dp_3_08_State implements dp_Demo {
-    public void main(String[] args) {
+public class dp_3_08_State implements Demonstration {
+    public void demonstration() {
 
         Context context = new Context(new StateGreen(), "the Rest of the data");
         context.ChangeState(new StateBlue());
