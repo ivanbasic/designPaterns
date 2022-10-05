@@ -23,7 +23,7 @@ class SingleObject {
 }
 
 //Step 2 Get the only object from the singleton class.
-public class dp_1_01_Sigleton implements Demonstration {
+public class dp_1_01_Singleton implements Demonstration {
    public   void demonstration() {
 
       //illegal construct

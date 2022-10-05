@@ -2,7 +2,8 @@ by Ivan Basic
 15.08.2017
 03.10.2022
 
-JAVA DESIGN PATTERNS DEMONSTRATION
+THE DEMONSTRATIONS OF
+JAVA DESIGN PATTERNS
 
 Re-writing original design patterns by Gang of Four using Java 11
 I have always tried to create the examples on my own.

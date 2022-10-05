@@ -1,7 +1,15 @@
-Design Patterns, DEMOs, dynamic call (reflection)
+JAVA DESIGN PATTERNS
+Singleton object created.
 
 ===============================================================
-Demo#1 1.02.Factory
+Demo#1 1.01.Sigleton
+===============================================================
+Singleton demo started
+getInstance called
+Hello World from Singleton
+
+===============================================================
+Demo#2 1.02.Factory
 ===============================================================
 Creating ConcreteProduct1
 Creating ConcreteProduct2
@@ -10,7 +18,7 @@ Creating ConcreteProduct1
 Creating ConcreteProduct2
 
 ===============================================================
-Demo#2 1.03.AbstractFactory
+Demo#3 1.03.AbstractFactory
 ===============================================================
 Creating Factory 1
 a Windows button
@@ -20,5 +28,248 @@ Creating Factory 2
 a Linux button
 a Linux scroll
 There is no a Linux panel
+
+===============================================================
+Demo#4 1.04.Builder
+===============================================================
+ivanbasic.BlankoBuilder@2b9627bc
+4 2 7 10 7 3 4 7 7 9 2 10 8 2 10
+
+ivanbasic.BracketBuilder@610694f1
+[4][2][7][10][7][3][4][7][7][9][2][10][8][2][10]
+
+ivanbasic.LuckyBuilder@43814d18
+4 2 [ lucky seven! ] 10 [ lucky seven! ] 3 4 [ lucky seven! ] [ lucky seven! ] 9 2 10 8 2 10
+
+ivanbasic.OddBuilder@578486a3
++4+2-7+10-7-3+4-7-7-9+2+10+8+2+10
+
+
+===============================================================
+Demo#5 1.05.Prototype
+===============================================================
+Prototype demo
+Original person: This person is named Smith
+Cloned person: This person is named Smith
+
+===============================================================
+Demo#6 2.01.Adapter
+===============================================================
+REQUEST from T1
+REQUEST from T2
+REQUEST from T3
+SPECIFIC REQUEST from Adaptee
+
+===============================================================
+Demo#7 2.02.Bridge
+===============================================================
+New: RefinedAbstractionI ConcreteImplementorA
+New: RefinedAbstractionI ConcreteImplementorB
+New: RefinedAbstractionI ConcreteImplementorC
+New: RefinedAbstractionJ ConcreteImplementorA
+New: RefinedAbstractionJ ConcreteImplementorB
+New: RefinedAbstractionJ ConcreteImplementorC
+Number of abstractions: 6
+
+===============================================================
+Demo#8 2.03.Composite
+===============================================================
+Composite. the Hole Picture #1. Number of children: 3
+    Composite. the Picture of the components #2. Number of children: 5
+        Rectangle. position 1,1 size 5
+        Rectangle. position 2,2 size 10
+        Rectangle. position 3,3 size 15
+        Line. from 10,10 to 100,10
+        Line. from 20,10 to 200,10
+    Composite. the Picture of the components #4. Number of children: 4
+        Text. a cat
+        Text. a dog
+        Text. a flower
+        Composite. the Picture of the components #3. Number of children: 5
+            Rectangle. position 4,4 size 20
+            Rectangle. position 5,5 size 25
+            Rectangle. position 6,6 size 30
+            Line. from 30,10 to 300,10
+            Line. from 40,10 to 400,10
+    Text. the end
+
+===============================================================
+Demo#9 2.04.Decorator
+===============================================================
+op 1
+op 2
+
+===============================================================
+Demo#10 2.06.Flyweight
+===============================================================
+Wait a moment, reading a new font, name=Arial
+Wait a moment, reading a new font, name=Courier
+Glyphs      =581
+Shared fonts=2
+
+===============================================================
+Demo#11 2.07.Proxy
+===============================================================
+Loading HiRes_10MB_Photo1
+Displaying HiRes_10MB_Photo1
+Displaying HiRes_10MB_Photo1
+Loading HiRes_10MB_Photo2
+Displaying HiRes_10MB_Photo2
+Displaying HiRes_10MB_Photo2
+Displaying HiRes_10MB_Photo1
+
+===============================================================
+Demo#12 3.01.ChainOfResponsibility
+===============================================================
+
+REQUEST $1
+Manager will approve $1.0
+
+REQUEST $11
+Manager will NOT approve this. Forward to successor.
+Director will approve $11.0
+
+REQUEST $21
+Manager will NOT approve this. Forward to successor.
+Director will NOT approve this. Forward to successor.
+Vice President will approve $21.0
+
+REQUEST $31
+Manager will NOT approve this. Forward to successor.
+Director will NOT approve this. Forward to successor.
+Vice President will approve $31.0
+
+REQUEST $41
+Manager will NOT approve this. Forward to successor.
+Director will NOT approve this. Forward to successor.
+Vice President will NOT approve this. Forward to successor.
+President will approve $41.0
+
+REQUEST $51
+Manager will NOT approve this. Forward to successor.
+Director will NOT approve this. Forward to successor.
+Vice President will NOT approve this. Forward to successor.
+President will approve $51.0
+
+REQUEST $61
+Manager will NOT approve this. Forward to successor.
+Director will NOT approve this. Forward to successor.
+Vice President will NOT approve this. Forward to successor.
+Nobody will approve $61.0
+
+REQUEST $71
+Manager will NOT approve this. Forward to successor.
+Director will NOT approve this. Forward to successor.
+Vice President will NOT approve this. Forward to successor.
+Nobody will approve $71.0
+
+===============================================================
+Demo#13 3.04.Iterator
+===============================================================
+
+A) Apple Banana Orange
+B) Apple Banana Orange
+C) Apple Banana Orange
+D) Apple Banana Orange
+===============================================================
+Demo#14 3.05.Mediator
+===============================================================
+
+Message from Alice
+Bob  received message: Hello
+Cindy  received message: Hello
+
+Message from Bob
+Alice  received message: Hi
+Cindy  received message: Hi
+
+Message from Cindy
+Alice  received message: Good Morning
+Bob  received message: Good Morning
+
+===============================================================
+Demo#15 3.06.Memento
+===============================================================
+Originator: Setting state to State1
+Originator: Setting state to State2
+Originator: Saving to Memento.
+Originator: Setting state to State3
+Originator: Saving to Memento.
+Originator: Setting state to State4
+Originator: State after restoring from Memento: State3
+
+===============================================================
+Demo#16 3.07.Observer
+===============================================================
+First state change: 15
+Hex String: F
+Octal String: 17
+Binary String: 1111
+
+
+Second state change: 10
+Hex String: A
+Octal String: 12
+Binary String: 1010
+
+===============================================================
+Demo#17 3.08.State
+===============================================================
+Constructor, setting the state and the rest of the data.
+
+For current state, the operations are:
+StateGreen 1
+StateGreen 2
+StateGreen 3
+
+For current state, the operations are:
+StateBlue 1
+StateBlue 2
+StateBlue 3
+
+For current state, the operations are:
+StateRed 1
+StateRed 2
+StateRed 3
+
+===============================================================
+Demo#18 3.09.Strategy
+===============================================================
+aContext constructor
+
+change strategy to ivanbasic.Walk@76b0bfab
+Walk
+
+change strategy to ivanbasic.Run@17d677df
+Run
+Run
+
+change strategy to ivanbasic.Fly@3043fe0e
+Fly
+Fly
+Fly
+
+===============================================================
+Demo#19 3.10.Template
+===============================================================
+
+>>Measure 3 times, cut once<< template implemented
+measure
+measure
+measure
+cut
+eat
+
+>>Measure 3 times, cut once<< template implemented
+just eat
+
+===============================================================
+Demo#20 3.11.Visitor
+===============================================================
+Visitor=Sun, element=ivanbasic.Aplle@78e67e0a
+Visitor=Rain, element=ivanbasic.Aplle@78e67e0a
+Visitor=Sun, element=ivanbasic.Banana@bd8db5a
+Visitor=Rain, element=ivanbasic.Banana@bd8db5a
+Visitor=Rain, element=ivanbasic.Banana@bd8db5a
 
 Process finished with exit code 0
