@@ -2,7 +2,7 @@ JAVA DESIGN PATTERNS
 Singleton object created.
 
 ===============================================================
-Demo#1 1.01.Sigleton
+Demo#1 1.01.Singleton
 ===============================================================
 Singleton demo started
 getInstance called
@@ -33,16 +33,16 @@ There is no a Linux panel
 Demo#4 1.04.Builder
 ===============================================================
 ivanbasic.BlankoBuilder@2b9627bc
-4 2 7 10 7 3 4 7 7 9 2 10 8 2 10
+8 5 10 7 8 5 8 3 2 2 7 3 3 5 9
 
 ivanbasic.BracketBuilder@610694f1
-[4][2][7][10][7][3][4][7][7][9][2][10][8][2][10]
+[8][5][10][7][8][5][8][3][2][2][7][3][3][5][9]
 
 ivanbasic.LuckyBuilder@43814d18
-4 2 [ lucky seven! ] 10 [ lucky seven! ] 3 4 [ lucky seven! ] [ lucky seven! ] 9 2 10 8 2 10
+8 5 10 [ lucky seven! ] 8 5 8 3 2 2 [ lucky seven! ] 3 3 5 9
 
 ivanbasic.OddBuilder@578486a3
-+4+2-7+10-7-3+4-7-7-9+2+10+8+2+10
++8-5+10-7+8-5+8-3+2+2-7-3-3-5-9
 
 
 ===============================================================
