@@ -14,13 +14,13 @@ public class dp_3_04_Iterator implements Demonstration {
         while (itr.hasNext()) { System.out.print(itr.next() + " ");  }
 
         System.out.print("\nB) ");
-        fruits.iterator().forEachRemaining(str -> { System.out.print(str + " "); });
+        fruits.iterator().forEachRemaining(str ->  System.out.print(str + " ") );
 
         System.out.print("\nC) ");
-        fruits.stream().forEach(str -> { System.out.print(str + " "); });
+        fruits.stream().forEach(str ->  System.out.print(str + " ") );
 
         System.out.print("\nD) ");
-        Consumer<String> printIt = str -> {  System.out.print(str + " "); };
+        Consumer<String> printIt = str -> System.out.print(str + " ");
         fruits.stream().forEach( printIt );
 
     }
