@@ -10,7 +10,7 @@ public class dp_1_04_Builder implements Demonstration {
 
         // complex Object
         Generator generator = new Generator();
-        List<Integer> complexObject = generator.Get(14);
+        List<Integer> complexObject = generator.get(14);
 
         // Builder, Concrete Builder
         Builder blankoBuilder = new BlankoBuilder();
@@ -22,10 +22,10 @@ public class dp_1_04_Builder implements Demonstration {
         Director dir = new Director();
 
         // Director constructs an object using the Builder interface
-        dir.Construct(complexObject, blankoBuilder);
-        dir.Construct(complexObject, bracketBuilder);
-        dir.Construct(complexObject, luckyBuilder);
-        dir.Construct(complexObject, oddBuilder);
+        dir.construct(complexObject, blankoBuilder);
+        dir.construct(complexObject, bracketBuilder);
+        dir.construct(complexObject, luckyBuilder);
+        dir.construct(complexObject, oddBuilder);
 
 
     }
@@ -35,7 +35,7 @@ public class dp_1_04_Builder implements Demonstration {
 // Director
 class Director {
     // Construct
-    void Construct(List<Integer> complexObject, Builder builder) {
+    void construct(List<Integer> complexObject, Builder builder) {
         // Product
         String product = "";
 
@@ -87,7 +87,7 @@ class LuckyBuilder implements Builder {
 // complex Object
 class Generator {
 
-    List<Integer> Get(int lenght) {
+    List<Integer> get(int lenght) {
         List<Integer> comlpexObject = new ArrayList<Integer>();
 
         for (int ii = 0; ii <= lenght; ii++) {
