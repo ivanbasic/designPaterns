@@ -30,30 +30,37 @@ a Linux scroll
 There is no a Linux panel
 
 ===============================================================
-Demo#4 1.04.Builder
+Demo#4 1.04.BodyBuilder
 ===============================================================
-ivanbasic.BlankoBuilder@2b9627bc
-8 5 10 7 8 5 8 3 2 2 7 3 3 5 9
-
-ivanbasic.BracketBuilder@610694f1
-[8][5][10][7][8][5][8][3][2][2][7][3][3][5][9]
-
-ivanbasic.LuckyBuilder@43814d18
-8 5 10 [ lucky seven! ] 8 5 8 3 2 2 [ lucky seven! ] 3 3 5 9
-
-ivanbasic.OddBuilder@578486a3
-+8-5+10-7+8-5+8-3+2+2-7-3-3-5-9
-
+body1=extraABS extraLEGS extraARMS extraSHOULDERS
+body2=extraABS! null null null
+body3=null null null null
 
 ===============================================================
-Demo#5 1.05.Prototype
+Demo#5 1.04.Builder
+===============================================================
+ivanbasic.BlankoBuilder@711f39f9
+1 10 5 10 4 3 2 7 9 10 10 8 6 4 2
+
+ivanbasic.BracketBuilder@1f7030a6
+[1][10][5][10][4][3][2][7][9][10][10][8][6][4][2]
+
+ivanbasic.LuckyBuilder@5a1c0542
+1 10 5 10 4 3 2 [ lucky seven! ] 9 10 10 8 6 4 2
+
+ivanbasic.OddBuilder@1e965684
+-1+10-5+10+4-3+2-7-9+10+10+8+6+4+2
+
+
+===============================================================
+Demo#6 1.05.Prototype
 ===============================================================
 Prototype demo
 Original person: This person is named Smith
 Cloned person: This person is named Smith
 
 ===============================================================
-Demo#6 2.01.Adapter
+Demo#7 2.01.Adapter
 ===============================================================
 REQUEST from T1
 REQUEST from T2
@@ -61,7 +68,7 @@ REQUEST from T3
 SPECIFIC REQUEST from Adaptee
 
 ===============================================================
-Demo#7 2.02.Bridge
+Demo#8 2.02.Bridge
 ===============================================================
 New: RefinedAbstractionI ConcreteImplementorA
 New: RefinedAbstractionI ConcreteImplementorB
@@ -72,7 +79,7 @@ New: RefinedAbstractionJ ConcreteImplementorC
 Number of abstractions: 6
 
 ===============================================================
-Demo#8 2.03.Composite
+Demo#9 2.03.Composite
 ===============================================================
 Composite. the Hole Picture #1. Number of children: 3
     Composite. the Picture of the components #2. Number of children: 5
@@ -94,13 +101,13 @@ Composite. the Hole Picture #1. Number of children: 3
     Text. the end
 
 ===============================================================
-Demo#9 2.04.Decorator
+Demo#10 2.04.Decorator
 ===============================================================
 op 1
 op 2
 
 ===============================================================
-Demo#10 2.06.Flyweight
+Demo#11 2.06.Flyweight
 ===============================================================
 Wait a moment, reading a new font, name=Arial
 Wait a moment, reading a new font, name=Courier
@@ -108,7 +115,7 @@ Glyphs      =581
 Shared fonts=2
 
 ===============================================================
-Demo#11 2.07.Proxy
+Demo#12 2.07.Proxy
 ===============================================================
 Loading HiRes_10MB_Photo1
 Displaying HiRes_10MB_Photo1
@@ -119,7 +126,7 @@ Displaying HiRes_10MB_Photo2
 Displaying HiRes_10MB_Photo1
 
 ===============================================================
-Demo#12 3.01.ChainOfResponsibility
+Demo#13 3.01.ChainOfResponsibility
 ===============================================================
 
 REQUEST $1
@@ -164,7 +171,7 @@ Vice President will NOT approve this. Forward to successor.
 Nobody will approve $71.0
 
 ===============================================================
-Demo#13 3.04.Iterator
+Demo#14 3.04.Iterator
 ===============================================================
 
 A) Apple Banana Orange
@@ -172,7 +179,7 @@ B) Apple Banana Orange
 C) Apple Banana Orange
 D) Apple Banana Orange
 ===============================================================
-Demo#14 3.05.Mediator
+Demo#15 3.05.Mediator
 ===============================================================
 
 Message from Alice
@@ -188,7 +195,7 @@ Alice  received message: Good Morning
 Bob  received message: Good Morning
 
 ===============================================================
-Demo#15 3.06.Memento
+Demo#16 3.06.Memento
 ===============================================================
 Originator: Setting state to State1
 Originator: Setting state to State2
@@ -199,7 +206,7 @@ Originator: Setting state to State4
 Originator: State after restoring from Memento: State3
 
 ===============================================================
-Demo#16 3.07.Observer
+Demo#17 3.07.Observer
 ===============================================================
 First state change: 15
 Hex String: F
@@ -213,7 +220,7 @@ Octal String: 12
 Binary String: 1010
 
 ===============================================================
-Demo#17 3.08.State
+Demo#18 3.08.State
 ===============================================================
 Constructor, setting the state and the rest of the data.
 
@@ -233,24 +240,24 @@ StateRed 2
 StateRed 3
 
 ===============================================================
-Demo#18 3.09.Strategy
+Demo#19 3.09.Strategy
 ===============================================================
 aContext constructor
 
-change strategy to ivanbasic.Walk@76b0bfab
+change strategy to ivanbasic.Walk@26a7b76d
 Walk
 
-change strategy to ivanbasic.Run@17d677df
+change strategy to ivanbasic.Run@4abdb505
 Run
 Run
 
-change strategy to ivanbasic.Fly@3043fe0e
+change strategy to ivanbasic.Fly@7ce6a65d
 Fly
 Fly
 Fly
 
 ===============================================================
-Demo#19 3.10.Template
+Demo#20 3.10.Template
 ===============================================================
 
 >>Measure 3 times, cut once<< template implemented
@@ -264,12 +271,12 @@ eat
 just eat
 
 ===============================================================
-Demo#20 3.11.Visitor
+Demo#21 3.11.Visitor
 ===============================================================
-Visitor=Sun, element=ivanbasic.Aplle@78e67e0a
-Visitor=Rain, element=ivanbasic.Aplle@78e67e0a
-Visitor=Sun, element=ivanbasic.Banana@bd8db5a
-Visitor=Rain, element=ivanbasic.Banana@bd8db5a
-Visitor=Rain, element=ivanbasic.Banana@bd8db5a
+Visitor=Sun, element=ivanbasic.Aplle@1500955a
+Visitor=Rain, element=ivanbasic.Aplle@1500955a
+Visitor=Sun, element=ivanbasic.Banana@e874448
+Visitor=Rain, element=ivanbasic.Banana@e874448
+Visitor=Rain, element=ivanbasic.Banana@e874448
 
 Process finished with exit code 0

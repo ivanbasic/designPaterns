@@ -12,6 +12,7 @@ If that is not the case, I used "other references" below for help.
 Reference:
     Design Patterns, Elements of Reusable Object-Oriented Software by Gang of Four
     https://en.wikipedia.org/wiki/Design_Patterns
+    http://www.javier8a.com/itc/bd1/articulo.pdf
 Other References:
     https://en.wikipedia.org/wiki/Software_design_pattern
     https://www.tutorialspoint.com/design_pattern/
@@ -38,7 +39,7 @@ JAVA DESIGN PATTERNS:
                         AbstractProductB, ProductB1, ProductB2
 1.04 Builder Pattern  - Separate the construction of a complex object from its representation
                         a Director Construct(); Builder BuildPart(); ConcreteBuilder; Product
-                        b Product, iner class ProductBuilder build()
+                        b Product, inner class ProductBuilder build()
 1.05 Prototype        - Clone
                         interface Prototype {  Prototype  clone(); }
 
